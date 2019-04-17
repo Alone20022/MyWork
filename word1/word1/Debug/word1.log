@@ -1,0 +1,5 @@
+﻿  word1.cpp
+A:\Games\untitled\word1\word1\word1.cpp(46): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+A:\Games\untitled\word1\word1\word1.cpp(90): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+A:\Games\untitled\word1\word1\word1.cpp(137): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+  word1.vcxproj -> A:\Games\untitled\word1\Debug\word1.exe
