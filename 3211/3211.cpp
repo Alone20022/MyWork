@@ -20,7 +20,7 @@ int main()
 
 	switch (val) {
 
-	case '1':
+	case 1:
 
 		cout << "Вы выбрали валюту - рубли" << endl;
 		cout << "В какую валюту хотите перевести: 1 - гривни, 2 - юань" << endl;
@@ -31,16 +31,24 @@ int main()
 
 		if (i == 1) {
 
-			cout << "Ваша сумма - " << endl;
+			cout << "Ваша сумма - ";
+
+			cin >> i;
+
+			cout << endl;
 
 			i = i / 3;
 
 			cout << i << endl;
 			break;
 		}
-		else if (i = 2) {
+		else if (i == 2) {
 
-			cout << "Ваша сумма - " << endl;
+			cout << "Ваша сумма - ";
+
+			cin >> i;
+
+			cout << endl;
 
 			i = i / 5;
 
@@ -52,7 +60,7 @@ int main()
 
 		break;
 
-	case '2':
+	case 2:
 
 		cout << "Вы выбрали валюту - гривни" << endl;
 		cout << "В какую валюту хотите перевести: 1 - рубли, 2 - юань" << endl;
@@ -63,7 +71,11 @@ int main()
 
 		if (z == 1) {
 
-			cout << "Ваша сумма - " << endl;
+			cout << "Ваша сумма - ";
+
+			cin >> z;
+
+			cout << endl;
 
 			z = z * 3;
 
@@ -72,9 +84,13 @@ int main()
 			break;
 
 		}
-		else if (z = 2) {
+		else if (z == 2) {
 
-			cout << "Ваша сумма - " << endl;
+			cout << "Ваша сумма - ";
+
+			cin >> z;
+
+			cout << endl;
 
 			z = z / 3;
 
@@ -87,7 +103,7 @@ int main()
 
 		break;
 
-	case '3':
+	case 3:
 
 		cout << "Вы выбрали валюту - юань" << endl;
 		cout << "В какую валюту хотите перевести: 1 - рубли, 2 - гривни" << endl;
@@ -98,16 +114,24 @@ int main()
 
 		if (c == 1) {
 
-			cout << "Ваша сумма - " << endl;
+			cout << "Ваша сумма - ";
+
+			cin >> c;
+
+			cout << endl;
 
 			c = c * 5;
 
 			cout << c << endl;
 			break;
 		}
-		else if (c = 2) {
+		else if (c == 2) {
 
-			cout << "Ваша сумма - " << endl;
+			cout << "Ваша сумма - ";
+
+			cin >> c;
+
+			cout << endl;
 
 			c = c * 5;
 
